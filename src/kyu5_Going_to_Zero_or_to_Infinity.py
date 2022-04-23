@@ -87,10 +87,7 @@ def sets_gen(going):
     test_sets = []
     for n in range(1, 500):
         match = going(n)
-        test_sets.append((
-            (n,),
-            match
-        ))
+        test_sets.append(((n,)match))
     return test_sets
 
 
